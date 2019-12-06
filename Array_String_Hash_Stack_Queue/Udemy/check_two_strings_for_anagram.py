@@ -2,13 +2,20 @@
 QUESTION -
 https://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/blob/master/Array%20Sequences/Array%20Sequences%20Interview%20Questions/Array%20Sequence%20Interview%20Questions%20-%20PRACTICE/Anagram%20Check%20.ipynb
 
-APPROACH -
+APPROACH 1 -
     1. Replacing the spaces between the words with no space. Converting entire line into lower case.
     2. Creating a dictionary for storing each alphabet and its count into a dictionary format.
     3. Checking whether both strings are of same length and appending the alphabets and respective count of the 1st string into the dictionary.
     4. Looping through each alphabet of string 2 and subtracting the count of each alphabet stored in the dictionary. If both strings are Anagram, the ultimate count of each key of the dictionary will be '0'.
 
+APPROACH 2 -
+    1. Sort both the strings after removing spaces between words and converting all words to lower case.
+    2. If both the sorted strings are equal, then they are Anagrams.
+
 '''
+# ________________________________________________________________________________________________________
+'''
+# Approach 1 -
 def anagramChecker(line1, line2):
     # Replacing the spaces between the words with no space. Converting entire line into lower case.
     line1 = line1.replace(' ', '').lower()
@@ -40,6 +47,22 @@ def anagramChecker(line1, line2):
 
     else:
         print("Both strings are of different length")
+        return False
+
+print('1st Anagram: ', anagramChecker('cat', 'tac'))
+print('2nd Anagram: ', anagramChecker('clint   eastwood', 'old west action'))
+print('3rd Anagram: ', anagramChecker('My name is Setu Gandhi', 'My name is Neel Gandhi'))
+'''
+# ________________________________________________________________________________________________________
+# Approach 2 -
+def anagramChecker(line1, line2):
+    # Replacing the spaces between the words with no space. Converting entire line into lower case.
+    line1 = line1.replace(' ', '').lower()
+    line2 = line2.replace(' ', '').lower()
+
+    if sorted(line1) == sorted(line2):
+        return True
+    else:
         return False
 
 print('1st Anagram: ', anagramChecker('cat', 'tac'))
