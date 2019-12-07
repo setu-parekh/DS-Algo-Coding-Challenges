@@ -9,3 +9,4 @@
 |3|[find_the_missing_element](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/find_the_missing_element.py)|Udemy|
 |4|[reverse_the_string](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/reverse_the_string.py)|Udemy|
 |5|[string_compression](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/string_compression.py)|Udemy|
+|5|[unique_characters_in_a_string](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/unique_characters_in_a_string.py)|Udemy|
