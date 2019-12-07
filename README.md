@@ -1,5 +1,10 @@
 # DS-Algo-Coding-Challenges
 
+## **Python Tricks**
+|#|Trick|Use
+|:-:|:-:|:-:|
+|1|[Using List comprehension](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Python_Tricks/list_comprehension_syntax.png)|Used to iterate over list, check condition and append elements to new list|
+
 ## **Arrays-Strings-HashMap**
 
 |#|Question|Source
