@@ -17,3 +17,4 @@
 |6|[unique_characters_in_a_string](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/unique_characters_in_a_string.py)|Udemy|
 |7|[remove_even_integers_from_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/remove_even_integers_from_list.py)|Educative|
 |8|[merge_two_sorted_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/merge_two_sorted_list.py)|Educative|
+|8|[find_two_numbers_from_list_adding_up_to_N](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_two_numbers_from_list_adding_up_to_N.py)|Educative|
