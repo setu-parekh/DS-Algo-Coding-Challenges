@@ -22,3 +22,4 @@
 |11|[find_min_value_in_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_min_value_in_list.py)|Educative|
 |12|[first_non_repeating_integer_in_the_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/first_non_repeating_integer_in_the_list.py)|Educative|
 |13|[find_second_max_value_in_a_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_second_max_value_in_a_list.py)|Educative|
+|14|[right_rotate_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/right_rotate_list.py)|Educative|
