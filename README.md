@@ -20,3 +20,5 @@
 |9|[find_two_numbers_from_list_adding_up_to_N](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_two_numbers_from_list_adding_up_to_N.py)|Educative|
 |10|[list_of_products_of_all_elements_except_self](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/list_of_products_of_all_elements_except_self.py)|Educative|
 |11|[find_min_value_in_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_min_value_in_list.py)|Educative|
+|12|[first_non_repeating_integer_in_the_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/first_non_repeating_integer_in_the_list.py)|Educative|
+|13|[find_second_max_value_in_a_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_second_max_value_in_a_list.py)|Educative|
