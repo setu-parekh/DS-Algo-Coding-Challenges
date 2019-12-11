@@ -7,8 +7,8 @@
 
 ## **Arrays-Strings-HashMap**
 
-|#|Question|Source
-|:-:|:-:|:-:|
+|#|Question|Source|TimeComplexity|SpaceComplexity
+|:-:|:-:|:-:|:-:|:-:|
 |1|[check_two_strings_for_anagram](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/check_two_strings_for_anagram.py)|Udemy|
 |2|[find_unique_pair_summing_to_specified_value](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/find_unique_pair_summing_to_specified_value.py)|Udemy|
 |3|[find_the_missing_element](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/find_the_missing_element.py)|Udemy|
@@ -23,3 +23,10 @@
 |12|[first_non_repeating_integer_in_the_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/first_non_repeating_integer_in_the_list.py)|Educative|
 |13|[find_second_max_value_in_a_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_second_max_value_in_a_list.py)|Educative|
 |14|[right_rotate_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/right_rotate_list.py)|Educative|
+|15|[rearrange_positive_and_negative_numbers](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/rearrange_positive_and_negative_numbers.py)|Educative|
+
+## **LinkedList**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity
+:-:|:-:|:-:|:-:|:-:|
+|1|[inserting_node_at_head](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/inserting_node_at_head.py)|Educative|O(1)|O(1)|
