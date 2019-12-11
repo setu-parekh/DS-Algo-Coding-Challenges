@@ -15,7 +15,7 @@ APPROACH -
     6. New node 'N' points to None.
 
 
-    TIME COMPLEXITY - O(1) Inserting in LL is constant time operation.
+    TIME COMPLEXITY - O(N) because we traversed through entire LL to find the tail pointer and add a new node.
     SPACE COMPLEXITY - O(1) as resulting LL space is not considered.
 '''
 
