@@ -36,7 +36,6 @@ class Solution:
         while current.next:
             print(current.value, end = '-->')
             current = current.next
-        print(current.value)
 
 
 if __name__ == '__main__':
