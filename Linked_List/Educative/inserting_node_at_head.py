@@ -25,17 +25,17 @@ class Node:
 
 class Solution:
     def insertAtTheFront(self, head, N):
-        current_node = node1 # This is the current head node without adding the new node.
-        N.next = current_node # Connecting the new node and current head.
-        current_node = N # Now making that new node as head.
-        return current_node.value
+        head = node1 # This is the current head node without adding the new node.
+        N.next = head # Connecting the new node and current head.
+        head = N # Now making that new node as head.
+        return head
 
-    def printLinkedList(self,current_node):
+    def printLinkedList(self,head):
         # Traversing till current.next is not None.
-        while current_node.next:
-            print(current_node.value, end = '-->')
-            current_node = current_node.next
-        print(current_node.value, '--> None')
+        while head.next:
+            print(head.value, end = '-->')
+            head = head.next
+        print(head.value)
 
 
 if __name__ == '__main__':
