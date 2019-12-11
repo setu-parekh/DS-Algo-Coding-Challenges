@@ -1,7 +1,7 @@
 '''
 QUESTION -
 ----------
-Insert a new node at head of the Linked List.
+Given a node pointing to the head of a LL, and a new node 'N', insert 'N' to the start of the LL.
 Sample Input: 10-->20-->30-->40-->None
 Output: 5-->10-->20-->30-->40-->None
 
@@ -22,9 +22,25 @@ class Node:
         self.value = value
         self.next = None
 
+
+class Solution:
+    def insertAtTheFront(self, head, N):
+        current_node = node1 # This is the current head node without adding the new node.
+        N.next = current_node # Connecting the new node and current head.
+        current_node = N # Now making that new node as head.
+        return current_node.value
+
+    def printLinkedList(self,current_node):
+        # Traversing till current.next is not None.
+        while current_node.next:
+            print(current_node.value, end = '-->')
+            current_node = current_node.next
+        print(current_node.value, '--> None')
+
+
 if __name__ == '__main__':
     # Create node objects.
-    node1 = Node(10)
+    node1 = Node(0)
     node2 = Node(20)
     node3 = Node(30)
     node4 = Node(40)
@@ -33,13 +49,8 @@ if __name__ == '__main__':
     node2.next = node3
     node3.next = node4
 
-    new_head_node = Node(5) # Creating the new node object which is to be added at the head position.
-    current_node = node1 # This is the current head node without adding the new node.
-    new_head_node.next = current_node # Connecting the new node and current head.
-    current_node = new_head_node # Now making that new node as head.
+    N = Node(5) # Creating the new node object which is to be added at the head position.
 
-    # Traversing through LL till node.next is not None.
-    while current_node.next:
-        print(current_node.value, end = "-->")
-        current_node = current_node.next
-    print(current_node.value, "--> None")
+    s = Solution()
+    print(s.insertAtTheFront(node1, N))
+    print(s.printLinkedList(N))
