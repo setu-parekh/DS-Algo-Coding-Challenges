@@ -1,8 +1,10 @@
 '''
 QUESTION -
 ----------
-Search for a specific value in a linked list. Return True if present and False if not present.
-Sample Input: 10 --> 20 --> 30 --> 50 --> 40 and search node with value = 20
+Write a program to detect loop in a LL. Return True if present and False if not present.
+Sample Input: 10 --> 20 --> 30 --> 50
+                      |             |
+                       -------------
 Output: True
 
 APPROACH (Using Hashing Technique) -
