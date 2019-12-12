@@ -30,3 +30,10 @@
 |#|Question|Source|TimeComplexity|SpaceComplexity
 :-:|:-:|:-:|:-:|:-:|
 |1|[inserting_node_at_head](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/inserting_node_at_head.py)|Educative|O(1)|O(1)|
+|2|[inserting_node_at_the_end](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/inserting_node_at_the_end.py)|Educative|O(N)|O(1)|
+|3|[finding_length_of_LL](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/finding_length_of_LL.py)|General|O(N)|O(1)|
+|4|[delete_first_node_of_LL](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_first_node_of_LL.py)|General|O(1)|O(1)|
+|5|[delete_last_node_of_LL](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_last_node_of_LL.py)|General|O(N)|O(1)|
+|6|[delete_node_with_specific_value](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_node_with_specific_value.py)|General|O(N)|O(1)|
+|7|[delete_node_at_specified_index](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_node_at_specified_index.py)|General|O(N)|O(1)|
+|8|[delete_given_node_with_pointer_at_given_node](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_given_node_with_pointer_at_given_node.py)|General|O(1)|O(1)|
