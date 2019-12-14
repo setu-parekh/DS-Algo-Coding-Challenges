@@ -33,11 +33,11 @@
 |2|[inserting_node_at_the_end](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/inserting_node_at_the_end.py)|Educative|O(N)|O(1)|
 |3|[search_in_singly_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/search_in_singly_linked_list.py)|Educative|O(N)|O(1)|
 |4|[detect_loop_in_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/detect_loop_in_linked_list.py)|Educative|HashingTechnique - AverageCase: O(N), WorstCase: O(N^2) FlyodCycleFindingAlgo - O(N)|HashingTechnique - O(N), FlyodCycleFindingAlgo - O(1)|
-|5|[reverse_the_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/reverse_the_linked_list.py)|O(N)|O(1)|
-|6|[remove_duplicate_values_from_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/remove_duplicate_values_from_linked_list.py)|O(N)|O(N)|
-|7|[union_of_two_linked_lists](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/union_of_two_linked_lists.py)|O(N)|O(1)|
-|8|[intersection_of_two_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/intersection_of_two_linked_list.py)|O(N)|O(1)|
-|9|[return_Nth_node_from_end](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/return_Nth_node_from_end.py)|O(N)|O(1)|
+|5|[reverse_the_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/reverse_the_linked_list.py)|Educative|O(N)|O(1)|
+|6|[remove_duplicate_values_from_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/remove_duplicate_values_from_linked_list.py)|Educative|O(N)|O(N)|
+|7|[union_of_two_linked_lists](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/union_of_two_linked_lists.py)|Educative|O(N)|O(1)|
+|8|[intersection_of_two_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/intersection_of_two_linked_list.py)|Educative|O(N)|O(1)|
+|9|[return_Nth_node_from_end](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/return_Nth_node_from_end.py)|Educative|O(N)|O(1)|
 |10|[finding_length_of_LL](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/finding_length_of_LL.py)|General|O(N)|O(1)|
 |11|[delete_first_node_of_LL](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_first_node_of_LL.py)|General|O(1)|O(1)|
 |12|[delete_last_node_of_LL](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_last_node_of_LL.py)|General|O(N)|O(1)|
