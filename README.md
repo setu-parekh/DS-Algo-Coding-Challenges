@@ -44,3 +44,9 @@
 |13|[delete_node_with_specific_value](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_node_with_specific_value.py)|General|O(N)|O(1)|
 |14|[delete_node_at_specified_index](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_node_at_specified_index.py)|General|O(N)|O(1)|
 |15|[delete_given_node_with_pointer_at_given_node](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_given_node_with_pointer_at_given_node.py)|General|O(1)|O(1)|
+
+## **Stacks**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity
+:-:|:-:|:-:|:-:|:-:|
+|1|[create_stack_using_class](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/create_stack_using_class.py)|Educative|-|-|
