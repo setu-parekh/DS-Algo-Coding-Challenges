@@ -51,3 +51,5 @@
 :-:|:-:|:-:|:-:|:-:|
 |1|[create_stack_using_class](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/create_stack_using_class.py)|Educative|-|-|
 |2|[implement_queue_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/implement_queue_using_stack.py)|Educative|O(N)|O(N)|
+|3|[evaluation_of_postfix_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/evaluation_of_postfix_using_stack.py)|Educative|O(N)|O(N)|
+|4|[find_next_greater_element_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/find_next_greater_element_using_stack.py)|Educative|O(N^2)|O(1)|
