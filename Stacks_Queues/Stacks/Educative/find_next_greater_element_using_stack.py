@@ -14,9 +14,9 @@ APPROACH -
     1. Initialize a result list = [-1] * length of input list.
     2. Find the max element from the list.
     3. Perform nested iterations:
-        - Outer Loop: iterate through i=0 till 2nd last element of the list as next max for last element of   the list is -1 only.
-        - Check whether input_list[i] = max element. If so then continue iterating through the outer loop     without doing anything.
-        - Inner Loop: iterate through i+1 till end of the list comparing each element with input_list[i].     Replace the ith element of result list as input_list[j]. Break the loop when 1st max element        found.
+        - Outer Loop: iterate through i=0 till 2nd last element of the list as next max for last element of the list is -1 only.
+        - Check whether input_list[i] = max element. If so then continue iterating through the outer loop without doing anything.
+        - Inner Loop: iterate through i+1 till end of the list comparing each element with input_list[i]. Replace the ith element of result list as input_list[j]. Break the loop when 1st max element found.
     4. Return the result list.
 
 TIME COMPLEXITY -
