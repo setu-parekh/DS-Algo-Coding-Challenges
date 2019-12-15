@@ -63,6 +63,6 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    # print(s.enqueueIntoInputStack("1*-8-4+")) # Output: "Postfix expression is incorrect"
+    print(s.enqueueIntoInputStack("1*-8-4+")) # Output: "Postfix expression is incorrect"
     print(s.enqueueIntoInputStack("231*+9-")) # Output: -4
-    print(s.enqueueIntoInputStack(""))
+    print(s.enqueueIntoInputStack("")) # Output: "No expression found"
