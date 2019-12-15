@@ -50,3 +50,4 @@
 |#|Question|Source|TimeComplexity|SpaceComplexity
 :-:|:-:|:-:|:-:|:-:|
 |1|[create_stack_using_class](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/create_stack_using_class.py)|Educative|-|-|
+|2|[implement_queue_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/implement_queue_using_stack.py)|Educative|O(N)|O(N)|
