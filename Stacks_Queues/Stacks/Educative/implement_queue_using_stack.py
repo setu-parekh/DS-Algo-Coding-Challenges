@@ -20,7 +20,7 @@ APPROACH -
     5. Pop elements from stack2. Popped element will be the first added element of stack1. Removing 1st element of the list is called Dequeue operation of Queue.
 
 TIME COMPLEXITY: O(N)
---------------------
+---------------------
     These Pop and Push operations are performed on single element irrespective of size of the data set. We dont have to iterate through the list.
     - Appending elements into stackOne 1 at a time: Push O(1)
     - Popping topmost element from stackOne: Pop O(1)
@@ -28,6 +28,9 @@ TIME COMPLEXITY: O(N)
     - Popping topmost element from stackTwo: Pop O(1)
     Runtime will increase as we add more elements.
 
+SPACE COMPLEXITY: O(N)
+----------------------
+    - As we created two stacks for queue implementation, it utilizes space.
 '''
 
 class Solution:
