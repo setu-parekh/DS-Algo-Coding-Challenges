@@ -53,3 +53,12 @@
 |2|[implement_queue_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/implement_queue_using_stack.py)|Educative|O(N)|O(N)|
 |3|[evaluation_of_postfix_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/evaluation_of_postfix_using_stack.py)|Educative|O(N)|O(N)|
 |4|[find_next_greater_element_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/find_next_greater_element_using_stack.py)|Educative|O(N^2)|O(1)|
+|5|[check_balanced_parenthesis_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/check_balanced_parenthesis_using_stack.py)|Educative|O(N)|O(N)|
+|6|[min_function_in_stack_in_constant_time](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/min_function_in_stack_in_constant_time.py)|Educative|O(1)|O(N)|
+
+## **Queues**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity
+:-:|:-:|:-:|:-:|:-:|
+|1|[reversing_first_k_elements_of_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/reversing_first_k_elements_of_queue.py)|Educative|O(N)|O(N)|
+|2|[generate_binary_number_using_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/generate_binary_number_using_queue.py)|Educative|O(N)|O(N)|
