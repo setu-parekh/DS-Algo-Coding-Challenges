@@ -1,7 +1,8 @@
 '''
 QUESTION -
 ----------
-Given the root of BST, write a function to find minimum value in that tree.
+Given the root to a Binary Search Tree, write a function to find the height of the tree.
+
                 6
                 |
           -------------
@@ -16,29 +17,34 @@ Given the root of BST, write a function to find minimum value in that tree.
                        |       |
                        10      14
 
+Expected output for k = 2: [2,5,8,12]
+
 APPROACH -
------------
-    Edge Cases:
-        1. if root node is none: return -1
-        2. if only root node is present: minimum value is the root node itself
-    1. Move node.left till the end of the tree is reached.
-    2. When node.left is None, then that node value is the minimum value of the given tree.
+----------
+Recursive:
+    Base Case:
+        1. return if node is None.
+        2. append the node value if the counter (starting from 0) becomes equals to K after recursive calls.
+
+    1. Recursively call node.left and increment the counter variable during each call.
+    2. When counter becomes equal to K, then append that node value to the list and stop the recursion.
+    3. Next, recursively call node.right and increment the counter variable during each call.
+    4. When counter becomes equal to K, then append that node value to the list and stop iterating.
 
 TIME COMPLEXITY -
 -----------------
-Aveage: O(h) = O(logN) where h = height of Binary Search Tree
-Worst: O(N), where BST is skewed to either left or right side and N is number of nodes.
+O(N) as we traversed all nodes till level K.
 
 SPACE COMPLEXITY -
 ------------------
-O(1)
+O(N) as a stack is created during recursive function calls.
 '''
-
 class Node:
     def __init__(self,value):
         self.value = value
         self.left = None
         self.right = None
+
 
 class BinarySearchTree:
     def __init__(self, root):
@@ -66,26 +72,22 @@ class BinarySearchTree:
                     else:
                         current = current.right
 
-    def findMinIterative(self, node):
-        if node is None: # Edge Case 1
-            return -1
+    # Method to find nodes at Kth position from the root node.
+    def findKNodes(self, node, k):
+        nodeList = []
+        self.findNodesAtPosition(node, k, 0, nodeList)
+        return nodeList
 
-        if node.left is None and node.right is None: # Edge Case 2
-            return node.value
-
-        current = node
-
-        while current.left:
-            current = current.left
-
-        return current.value
-
-    def findMinRecursive(self, node):
+    # Helper function for above method recursively calling left and right nodes till the desired K-level is reached.
+    def findNodesAtPosition(self,node, k, count, lst):
         if node is None:
-            return -1
-        if node.left is None:
-            return node.value
-        self.findMinRecursive(node.left)
+            return
+        if k == count:
+            lst.append(node.value)
+        else:
+            self.findNodesAtPosition(node.left,k,count+1,lst)
+            self.findNodesAtPosition(node.right,k,count+1,lst)
+
 
 
 if __name__ == '__main__':
@@ -99,5 +101,4 @@ if __name__ == '__main__':
     bst.insertNode(8)
     bst.insertNode(10)
     bst.insertNode(14)
-    print("Minimum value is {}".format(bst.findMinIterative(root)))
-    print("Minimum value is {}".format(bst.findMinRecursive(root)))
+    print(bst.findKNodes(root,2))
