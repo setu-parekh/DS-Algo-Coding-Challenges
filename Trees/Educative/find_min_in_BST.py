@@ -16,8 +16,8 @@ Given the root of BST, write a function to find minimum value in that tree.
                        |       |
                        10      14
 
-APPROACH -
------------
+APPROACH (Iterative and Recursive) -
+----------------------------------
     Edge Cases:
         1. if root node is none: return -1
         2. if only root node is present: minimum value is the root node itself
@@ -26,12 +26,15 @@ APPROACH -
 
 TIME COMPLEXITY -
 -----------------
-Aveage: O(h) = O(logN) where h = height of Binary Search Tree
-Worst: O(N), where BST is skewed to either left or right side and N is number of nodes.
+Iterative:
+    Aveage: O(h) = O(logN) where h = height of Binary Search Tree
+    Worst: O(N), where BST is skewed to either left or right side and N is number of nodes.
+Recursive: O(N) as all nodes were visited.
 
 SPACE COMPLEXITY -
 ------------------
-O(1)
+Iterative: O(1)
+Recursive: O(N) as a temporary stack is created while recursion.
 '''
 
 class Node:
@@ -82,10 +85,11 @@ class BinarySearchTree:
 
     def findMinRecursive(self, node):
         if node is None:
-            return -1
-        if node.left is None:
+            return None
+        elif node.left is None:
             return node.value
-        self.findMinRecursive(node.left)
+        else:
+            return self.findMinRecursive(node.left)
 
 
 if __name__ == '__main__':
@@ -99,5 +103,5 @@ if __name__ == '__main__':
     bst.insertNode(8)
     bst.insertNode(10)
     bst.insertNode(14)
-    print("Minimum value is {}".format(bst.findMinIterative(root)))
+    # print("Minimum value is {}".format(bst.findMinIterative(root)))
     print("Minimum value is {}".format(bst.findMinRecursive(root)))
