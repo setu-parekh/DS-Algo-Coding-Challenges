@@ -62,3 +62,14 @@
 :-:|:-:|:-:|:-:|:-:|
 |1|[reversing_first_k_elements_of_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/reversing_first_k_elements_of_queue.py)|Educative|O(N)|O(N)|
 |2|[generate_binary_number_using_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/generate_binary_number_using_queue.py)|Educative|O(N)|O(N)|
+|3|[implement_double_ended_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Udemy/implement_double_ended_queue.py)|Educative|O(1)|O(1)|
+
+## **Trees**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity
+:-:|:-:|:-:|:-:|:-:|
+|1|[implementing_binary_search_tree](<link>)|Educative|-|-|
+|2|[find_min_in_BST](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_min_in_BST.py)|Educative|Iterative Average/Worst: O(logN)/O(N), Recursion: O(N)|Iterative/Recursive: O(1)/O(N)|
+|3|[find_Kth_max_value_in_bst](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_Kth_max_value_in_bst.py)|Educative|Iterative/Recursive: O(N)/O(logN)|O(N)|
+|4|[find_ancestors_of_given_node](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_ancestors_of_given_node.py)|Educative|O(logN)|O(1)|
+|5|[find_nodes_at_kth_position_from_root](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_nodes_at_kth_position_from_root.py)|Educative|O(N)|O(N)|
