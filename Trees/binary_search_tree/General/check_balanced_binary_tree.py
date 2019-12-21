@@ -92,8 +92,6 @@ class BinarySearchTree:
         return 1 + max(leftHeight, rightHeight)
 
 
-
-
 if __name__ == '__main__':
     root = Node(6)
     bst = BinarySearchTree(root)
