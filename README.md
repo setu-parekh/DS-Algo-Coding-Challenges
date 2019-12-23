@@ -73,3 +73,13 @@
 |3|[find_Kth_max_value_in_bst](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_Kth_max_value_in_bst.py)|Educative|Iterative/Recursive: O(N)/O(logN)|O(N)|
 |4|[find_ancestors_of_given_node](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_ancestors_of_given_node.py)|Educative|O(logN)|O(1)|
 |5|[find_nodes_at_kth_position_from_root](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Educative/find_nodes_at_kth_position_from_root.py)|Educative|O(N)|O(N)|
+|6|[LC-101: check_BT_for_symmetry](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Leetcode/LC_101_check_BT_for_symmetry.py)|LeetCode|O(N)|O(N)|
+|7|[LC-543: diameter_of_binary_tree](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Trees/Leetcode/LC_543_diameter_of_binary_tree.py)|LeetCode|O(N)|O(N)|
+
+## **Graphs**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity
+:-:|:-:|:-:|:-:|:-:|
+|1|[creating_graph_from_edge_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/creating_graph_from_edge_list.py)|Educative|--|--|
+|2|[depth_first_search_in_graph](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/depth_first_search_in_graph.py)|Educative|O(V+E)|O(V+E)|
+|3|[breadth_first_search_in_graph](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/breadth_first_search_in_graph.py)|Educative|O(V+E)|O(V+E)|
