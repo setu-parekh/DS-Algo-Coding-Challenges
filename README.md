@@ -7,8 +7,8 @@
 
 ## **Arrays-Strings-HashMap**
 
-|#|Question|Source|TimeComplexity|SpaceComplexity
-|:-:|:-:|:-:|:-:|:-:|
+|#|Question|Source|TimeComplexity|SpaceComplexity|Level
+|:-:|:-:|:-:|:-:|:-:|:-:|
 |1|[check_two_strings_for_anagram](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/check_two_strings_for_anagram.py)|Udemy|
 |2|[find_unique_pair_summing_to_specified_value](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/find_unique_pair_summing_to_specified_value.py)|Udemy|
 |3|[find_the_missing_element](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Udemy/find_the_missing_element.py)|Udemy|
@@ -24,6 +24,8 @@
 |13|[find_second_max_value_in_a_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/find_second_max_value_in_a_list.py)|Educative|
 |14|[right_rotate_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/right_rotate_list.py)|Educative|
 |15|[rearrange_positive_and_negative_numbers](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/rearrange_positive_and_negative_numbers.py)|Educative|
+|16|[1 - two_sum](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/LeetCode/1_two_sum.py)|LeetCode|BruteForce/Hashing: O(N^2)/O(N)|BruteForce/Hashing: O(1)/O(N)|Easy|
+
 
 ## **LinkedList**
 
@@ -82,4 +84,13 @@
 :-:|:-:|:-:|:-:|:-:|
 |1|[creating_graph_from_edge_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/creating_graph_from_edge_list.py)|Educative|--|--|
 |2|[depth_first_search_in_graph](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/depth_first_search_in_graph.py)|Educative|O(V+E)|O(V+E)|
-|3|[breadth_first_search_in_graph](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/breadth_first_search_in_graph.py)|Educative|O(V+E)|O(V+E)|
+|3|[modified_dfs](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/General/modified_dfs.py)|General|O(V+E)|O(V+E)|
+|4|[breadth_first_search_in_graph](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Graphs/Educative/breadth_first_search_in_graph.py)|Educative|O(V+E)|O(V+E)|
+
+## **Heaps**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity|Level
+:-:|:-:|:-:|:-:|:-:|:-:|
+|1|[heapq_operations](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Heaps/General/heapq_operations.py)|General|--|--|--|
+|2|[LC-973: K_closest_points_to_origin](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Heaps/LeetCode/973_K_closest_points_to_origin.py)|LeetCode|O(N) + O(N*logK)|O(N)|Medium|
+|3|[LC-253: Meeting_Rooms_II](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Heaps/LeetCode/253_meeting_rooms_II.py)|LeetCode|O(NlogN)|O(N)|Medium|
