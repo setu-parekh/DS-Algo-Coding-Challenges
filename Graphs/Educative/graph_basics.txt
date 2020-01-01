@@ -1,0 +1,38 @@
+'''
+Types of Graphs:
+----------------
+1. Undirected Graphs -
+    - If there are n vertices, maximum possible number of edges are = n(n-1)/2
+
+2. Directed Graphs -
+    - Minimum number of edges that can connect a vertex to all other vertices is represented by n-1. This excludes self loop.
+    - If there are n vertices, then maximum possible number of edges = n(n-1)
+
+Ways to represent Graphs:
+-------------------------
+1. Adjacency Matrix -
+    - Row and column of the matrix represents the vertices.
+    - Each cell contains either 0 or 1. If the edge exists between 2 vertices, then cell contains 1 otherwise 0.
+    - Example: Matrix[row][column]:
+        - if undirected graph then, Matrix[vertex1][vertex2] = Matrix[vertex2][vertex1] = 1 means there is an edge between vertex1 and vertex2.
+        - if directed graph then, Matrix[vertex1][vertex2] = 1.
+    - Convention of Matrix is to consider rows as source and column as destination.
+
+2. Adjacency List -
+    - It is a list of Linked Lists which contains a vertex as a head and all vertices connected to it.
+    - The size of list is equal to the number of vertices.
+    - If new vertex is added to the graph, it is appended to the list as well with its corresponding connected vertices.
+
+            0
+           / \
+          1   2
+           \ /
+            3
+
+        list = 0 --> 1 --> 2 --> None
+               1 --> 3 --> None
+               2 --> 3 --> None
+               3 --> None
+
+
+'''

@@ -28,33 +28,36 @@ O(V+E) as function call stack is created for vertices and edges.
 '''
 from collections import defaultdict
 
-class Solution:
+
+class Graph:
     def __init__(self):
-        self.graph = defaultdict(list)
+        self.adj_list = defaultdict(list)
 
-    def createAdjLst(self, listOfEdges):
-        for source, destination in listOfEdges:
-            self.graph[source].append(destination)
+    def createAdjList(self, list_of_edges):
+        for src, dest in list_of_edges:
+            self.adj_list[src].append(dest)
 
-        return self.graph
+        return self.adj_list
 
-    def dfsRecursive(self,start):
-        if start is None: # Edge Case
-            return []
+class Solution:
+    def dfsRecursive(self, adj_list):
+        visited_dict = {} # To keep the track of vertices being visited. If the vertex has been visited, then make it True in the dict.
+        result = []
 
-        self.visited = [] # Creating visited list to maintain the track of visited vertices so that they are not visited more than once.
-        self.result = []
+        def dfsUtil(vertex):
+            visited_dict[vertex] = True
+            result.append(vertex)
 
-        def dfsHelper(node):
-            self.result.append(node)
-            self.visited.append(node)
+            for neighbour in adj_list[vertex]:
+                if not visited_dict.get(neighbour):
+                    dfsUtil(neighbour)
+        # Below iteration makes sure that if there is any disjoint graph, then DFS has been carried out on all the vertices.
+        for v in adj_list.keys():
+            # If any vertex has not been visited yet, then perform DFS starting from that vertex.
+            if not visited_dict.get(v):
+                dfsUtil(v)
 
-            for element in self.graph[node]:
-                if element not in self.visited:
-                    dfsHelper(element) # Recursive call to the neighbour of the vertex
-
-        dfsHelper(start)
-        return self.result
+        return result
 
     def dfsIterative(self, start):
         # Initialize stack with the start node
@@ -76,8 +79,10 @@ class Solution:
         return visited
 
 if __name__ == '__main__':
+    g = Graph()
+    edges = [[12,22],[22,7],[7,12],[7,19],[19,15],[15,6],[6,19],[3,15]]
+    adj_list = g.createAdjList(edges)
+    print(adj_list)
+
     s = Solution()
-    # print(s.createAdjLst([[1,2],[1,3],[1,6],[2,4],[2,6],[3,5],[4,1],[4,3],[4,5],[6,4]]))
-    print(s.createAdjLst([[1,2],[1,3],[2,5],[2,4],[3,5],[4,6],[5,6],[6,7]]))
-    print(s.dfsRecursive(1))
-    print(s.dfsIterative(1))
+    print(s.dfsRecursive(adj_list))

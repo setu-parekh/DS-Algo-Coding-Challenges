@@ -15,9 +15,16 @@ class Solution:
     def __init__(self):
         self.graph = defaultdict(list) # while initializing a defaultdict, we have to provide the type of value as the arguement.
 
-    def createAdjLst(self, listOfEdges):
+    def createAdjLstDirected(self, listOfEdges):
         for source, destination in listOfEdges:
             self.graph[source].append(destination)
+
+        return self.graph
+
+    def createAdjLstUndirected(self, listOfEdges):
+        for source, destination in listOfEdges:
+            self.graph[source].append(destination)
+            self.graph[destination].append(source)
 
         return self.graph
 
