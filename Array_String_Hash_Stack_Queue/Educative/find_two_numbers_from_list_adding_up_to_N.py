@@ -80,20 +80,34 @@ if __name__ == '__main__':
 '''
 #__________________________________________________________________________________________________________________
 # Approach 3 -
-'''
-def findSum3(list, givenSum):
-    num_dict = {}
-    for i in range(len(list)):
-        if num_dict.get(givenSum - list[i]) is not None:  # get()is used to achieve O(1) search operation.
-            return [list[i], givenSum - list[i]]
+
+def findSum3(nums, target):
+    visited = {}
+    i = 0
+
+    while i < len(nums):
+        complement_num = target - nums[i]
+        if visited.get(complement_num):
+            return [i,visited[complement_num]]
         else:
-            num_dict[list[i]] = i
+            visited[nums[i]] = i
+
+        i += 1
+    return []
+
+    # num_dict = {}
+    # for i in range(len(list)):
+    #     if num_dict.get(givenSum - list[i]) is not None:  # get()is used to achieve O(1) search operation.
+    #         return [list[i], givenSum - list[i]]
+    #     else:
+    #         num_dict[list[i]] = i
 
 if __name__ == '__main__': # This is the syntax to start executing from the main method.
     print(findSum3([1,21,-3,14,-5,60,7,6], 81))
-'''
+
 #__________________________________________________________________________________________________________________
 # Approach 4 -
+'''
 def findSum4(list, givenSum):
     num_set = set() # Advantage of using set over list is that it is in the order of O(1) while searching for any element in the set. Just like dict.get() function.
     for element in list:
@@ -107,3 +121,4 @@ def findSum4(list, givenSum):
 
 if __name__ == '__main__':
     print(findSum4([1,21,-3,14,-5,60,7,6], 81))
+'''
