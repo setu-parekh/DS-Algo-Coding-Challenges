@@ -25,12 +25,14 @@
 |14|[right_rotate_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/right_rotate_list.py)|Educative|
 |15|[rearrange_positive_and_negative_numbers](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/Educative/rearrange_positive_and_negative_numbers.py)|Educative|
 |16|[1 - two_sum](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/LeetCode/1_two_sum.py)|LeetCode|BruteForce/Hashing: O(N^2)/O(N)|BruteForce/Hashing: O(1)/O(N)|Easy|
+|17|[53 - maximum_subarray](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/LeetCode/53_maximum_subarray.py)|LeetCode|kadaneAlgo: O(N)|kadaneAlgo: O(1)|Easy|
+|18|[202 - happy_number](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Array_String_Hash_Stack_Queue/LeetCode/202_happy_number.py)|LeetCode|hashSet/twoPointers: O(logN)/O(logN)|hashSet/twoPointers: O(N)/O(1)|Easy|
 
 
 ## **LinkedList**
 
-|#|Question|Source|TimeComplexity|SpaceComplexity
-:-:|:-:|:-:|:-:|:-:|
+|#|Question|Source|TimeComplexity|SpaceComplexity|Level
+:-:|:-:|:-:|:-:|:-:|:-:|
 |1|[inserting_node_at_head](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/inserting_node_at_head.py)|Educative|O(1)|O(1)|
 |2|[inserting_node_at_the_end](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/inserting_node_at_the_end.py)|Educative|O(N)|O(1)|
 |3|[search_in_singly_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/search_in_singly_linked_list.py)|Educative|O(N)|O(1)|
@@ -46,6 +48,9 @@
 |13|[delete_node_with_specific_value](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_node_with_specific_value.py)|General|O(N)|O(1)|
 |14|[delete_node_at_specified_index](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_node_at_specified_index.py)|General|O(N)|O(1)|
 |15|[delete_given_node_with_pointer_at_given_node](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_given_node_with_pointer_at_given_node.py)|General|O(1)|O(1)|
+|16|[21 - merge_two_sorted_lists](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/LeetCode/21_merge_two_sorted_lists.py)|LeetCode|O(N+M)|O(1)|Easy|
+|17|[206 - reverse_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/LeetCode/206_reverse_linked_list.py)|LeetCode|Iterative/Recursive: O(N)/O(N)|Iterative/Recursive: O(1)/O(N)|Easy|
+
 
 ## **Stacks**
 
