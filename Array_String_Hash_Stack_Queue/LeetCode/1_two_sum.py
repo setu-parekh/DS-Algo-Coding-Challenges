@@ -75,17 +75,14 @@ class Solution:
 
     def twoSumHashing(self, nums, target):
         visited = {}
-        i = 0
 
         if not nums:
             return []
 
-        while i < len(nums): # This will take O(N) time.
-            complement_num = target - nums[i]
-            if visited.get(complement_num): # Finding the key in dictionary using get function takes O(1) time.
-                return [i,visited[complement_num]]
+        for i in range(0, len(nums)):
+            current_num = nums[i]
+            complement_index = visited.get(target - current_num)
+            if complement_index is not None and complement_index != i:
+                return [complement_index, i]
             else:
-                visited[nums[i]] = i
-            i += 1
-
-        return []
+                visited[current_num] = i
