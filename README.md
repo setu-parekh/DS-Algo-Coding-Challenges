@@ -50,9 +50,10 @@
 |15|[delete_given_node_with_pointer_at_given_node](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/Educative/delete_given_node_with_pointer_at_given_node.py)|General|O(1)|O(1)|
 |16|[21 - merge_two_sorted_lists](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/LeetCode/21_merge_two_sorted_lists.py)|LeetCode|O(N+M)|O(1)|Easy|
 |17|[206 - reverse_linked_list](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/LeetCode/206_reverse_linked_list.py)|LeetCode|Iterative/Recursive: O(N)/O(N)|Iterative/Recursive: O(1)/O(N)|Easy|
+|18|[2 - Add two numbers](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Linked_List/LeetCode/2_add_two_numbers.py)|LeetCode|O(N)|O(1)|Medium|
 
 
-## **Stacks**
+## **Stacks-Queues**
 
 |#|Question|Source|TimeComplexity|SpaceComplexity
 :-:|:-:|:-:|:-:|:-:|
@@ -62,14 +63,10 @@
 |4|[find_next_greater_element_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/find_next_greater_element_using_stack.py)|Educative|O(N^2)|O(1)|
 |5|[check_balanced_parenthesis_using_stack](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/check_balanced_parenthesis_using_stack.py)|Educative|O(N)|O(N)|
 |6|[min_function_in_stack_in_constant_time](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Stacks/Educative/min_function_in_stack_in_constant_time.py)|Educative|O(1)|O(N)|
-
-## **Queues**
-
-|#|Question|Source|TimeComplexity|SpaceComplexity
-:-:|:-:|:-:|:-:|:-:|
-|1|[reversing_first_k_elements_of_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/reversing_first_k_elements_of_queue.py)|Educative|O(N)|O(N)|
-|2|[generate_binary_number_using_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/generate_binary_number_using_queue.py)|Educative|O(N)|O(N)|
-|3|[implement_double_ended_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Udemy/implement_double_ended_queue.py)|Educative|O(1)|O(1)|
+|7|[reversing_first_k_elements_of_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/reversing_first_k_elements_of_queue.py)|Educative|O(N)|O(N)|
+|8|[generate_binary_number_using_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Educative/generate_binary_number_using_queue.py)|Educative|O(N)|O(N)|
+|9|[implement_double_ended_queue](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/Queues/Udemy/implement_double_ended_queue.py)|Educative|O(1)|O(1)|
+|10|[20 - Valid Parenthesis](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Stacks_Queues/LeetCode/20_valid_parenthesis.py)|LeetCode|O(N)|O(N)|
 
 ## **Trees**
 
@@ -99,3 +96,9 @@
 |1|[heapq_operations](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Heaps/General/heapq_operations.py)|General|--|--|--|
 |2|[LC-973: K_closest_points_to_origin](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Heaps/LeetCode/973_K_closest_points_to_origin.py)|LeetCode|O(N) + O(N*logK)|O(N)|Medium|
 |3|[LC-253: Meeting_Rooms_II](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Heaps/LeetCode/253_meeting_rooms_II.py)|LeetCode|O(NlogN)|O(N)|Medium|
+
+## **DesignRelated**
+
+|#|Question|Source|TimeComplexity|SpaceComplexity|Level
+:-:|:-:|:-:|:-:|:-:|:-:|
+|1|[LC-146: LRU Cache](https://github.com/setu-parekh/DS-Algo-Coding-Challenges/blob/master/Design_Related/LeetCode/146_LRU_cache.py)|LeetCode|O(1)|O(N)|Medium|
