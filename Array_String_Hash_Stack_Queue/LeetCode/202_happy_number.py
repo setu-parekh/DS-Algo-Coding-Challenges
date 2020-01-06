@@ -75,44 +75,43 @@ Using Two Pointers (Floyd's cycle finding algo):
     ----------------
     - Since no extra space is used, space complexity is O(1)
 '''
-def isHappyUsingHash(self, n: int) -> bool:
+class Solution:
+    def isHappyUsingHash(self, n: int) -> bool:
+            def sumOfSquares(num):
+                sumSquare = 0
+                while num > 0:
+                    num,mod = divmod(num,10)
+                    sumSquare = sumSquare + mod**2
 
+                return sumSquare
+
+            visited = set()
+            while n != 1 and n not in visited:
+                visited.add(n)
+                n = sumOfSquares(n)
+
+            if n == 1:
+                return True
+            else:
+                return False
+
+    def isHappyTwoPointers(self, n: int) -> bool:
         def sumOfSquares(num):
-            sumSquare = 0
-            while num > 0:
-                num,mod = divmod(num,10)
-                sumSquare = sumSquare + mod**2
+                sumSquare = 0
+                while num > 0:
+                    num,mod = divmod(num,10)
+                    sumSquare = sumSquare + mod**2
 
-            return sumSquare
+                return sumSquare
 
-        visited = set()
-        while n != 1 and n not in visited:
-            visited.add(n)
-            n = sumOfSquares(n)
+        slow_runner = n
+        fast_runner = sumOfSquares(n)
 
-        if n == 1:
+        while fast_runner != slow_runner and fast_runner != 1:
+            slow_runner = sumOfSquares(slow_runner)
+            fast_runner = sumOfSquares(sumOfSquares(fast_runner))
+
+        if fast_runner == 1:
             return True
         else:
             return False
-
-def isHappyTwoPointers(self, n: int) -> bool:
-
-    def sumOfSquares(num):
-            sumSquare = 0
-            while num > 0:
-                num,mod = divmod(num,10)
-                sumSquare = sumSquare + mod**2
-
-            return sumSquare
-
-    slow_runner = n
-    fast_runner = sumOfSquares(n)
-
-    while fast_runner != slow_runner and fast_runner != 1:
-        slow_runner = sumOfSquares(slow_runner)
-        fast_runner = sumOfSquares(sumOfSquares(fast_runner))
-
-    if fast_runner == 1:
-        return True
-    else:
-        return False
